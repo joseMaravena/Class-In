@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases Particulares - [Tu Nombre]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clases Particulares con [Tu Nombre]</h1>
+        <p>Prepárate para tus exámenes y mejora tus notas con clases personalizadas</p>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy [Tu Nombre], un profesor particular dedicado a ayudar a estudiantes de universidades en Chile a alcanzar sus objetivos académicos. Con [X años] de experiencia en enseñanza, me especializo en materias como Cálculo, Álgebra, Física, y más.</p>
+        </div>
+
+        <div class="section" id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrezco clases particulares en línea y presenciales para una variedad de asignaturas universitarias. Mis servicios incluyen:</p>
+            <ul>
+                <li>Clases de Cálculo, Álgebra, Física, y más</li>
+                <li>Preparación para exámenes, interrogaciones y controles</li>
+                <li>Asesoramiento personalizado y recursos de estudio</li>
+            </ul>
+            <a href="#contacto" class="cta-button">Reserva tu Clase</a>
+        </div>
+
+        <div class="section" id="testimonios">
+            <h2>Testimonios</h2>
+            <p>"[Tu Nombre] me ayudó a aprobar mi examen de Cálculo. Su método de enseñanza es claro y efectivo." - Estudiante de Ingeniería, PUC</p>
+            <p>"Gracias a las clases particulares, mejoré mis notas significativamente." - Estudiante de Matemáticas, U. de Chile</p>
+        </div>
+
+        <div class="section" id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información o para reservar una clase, contáctame a través del siguiente formulario:</p>
+            <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Clases Particulares con [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
